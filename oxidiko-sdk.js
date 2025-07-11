@@ -1,7 +1,7 @@
 // Oxidiko Web Vault JavaScript SDK (Secure postMessage flow)
 class OxidikoAuth {
     constructor(options = {}) {
-        this.baseUrl = options.baseUrl || 'https://oxidiko.com'
+        this.baseUrl = options.baseUrl || 'https://www.oxidiko.com'
         this.apiKey = options.apiKey || null
         this.popupWidth = options.popupWidth || 500
         this.popupHeight = options.popupHeight || 700
