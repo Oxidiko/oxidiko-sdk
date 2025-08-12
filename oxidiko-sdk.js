@@ -43,7 +43,8 @@ class OxidikoAuth {
               {
                 api_key: this.apiKey,
                 fields: fieldsParam,
-                redirect
+                redirect,
+                siteUrl: window.location.origin // pass directly
               },
               authOrigin
             )
